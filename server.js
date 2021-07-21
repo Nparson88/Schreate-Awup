@@ -19,7 +19,6 @@ app.use(session({
   saveUninitialized: true
 }));
 
-
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(passport.initialize());
 app.use(passport.session());
